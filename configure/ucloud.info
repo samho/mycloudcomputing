@@ -1,0 +1,11 @@
+Host myucloud
+     IdentityFile /Users/samho/.ssh/ucloud.pem
+     Port 22
+     HostName 45.249.245.139
+     User ubuntu
+
+Host myucloudnode
+     IdentityFile /Users/samho/.ssh/ucloud.pem
+     Port 22
+     HostName 45.249.245.31
+     User ubuntu
